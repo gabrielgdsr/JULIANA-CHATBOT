@@ -931,7 +931,7 @@
         }
       }
       if (msg === '') {
-        return API.sendChat("Ninguém está AFK");
+        return API.sendChat("Ninguém está AFK na Familia ★Electro ,Trap, Trance★");
       } else {
         return API.sendChat('AFKs: ' + msg);
       }
