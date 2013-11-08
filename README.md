@@ -57,7 +57,7 @@
       curates: 0
     };
 
-    settings.prototype.pupScriptUrl = 'https://raw.github.com/Brutos/chatbotvm/master/.gitignore';
+    settings.prototype.pupScriptUrl = 'https://raw.github.com/gabrielgdsr/JULIANA-CHATBOT/master/README.md';
 
     settings.prototype.afkTime = 15 * 60 * 1000;
 
