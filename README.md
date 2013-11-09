@@ -349,7 +349,7 @@
   })();
 
   pupOnline = function() {
-    return API.sendChat("/me: JULIANA chatbot ON! ");
+    return API.sendChat("/me: !JULIANA chatbot ON , O Poderosa Acordo! ");
   };
 
   populateUserData = function() {
@@ -815,7 +815,7 @@
 
     sourceCommand.prototype.functionality = function() {
       var msg;
-      msg = ' BOT criado por Backus e editado por brutos para a Electro, Trap e Dubstep Brasil ';
+      msg = ' BOT criado por Backus e editado por !JULIANA by sala : Balada do poderoso ';
       return API.sendChat(msg);
     };
 
@@ -891,9 +891,10 @@
 
     downloadCommand.prototype.functionality = function() {
       var msg;
-      msg = "  Participe do grupo e curta nossa pagina ";
-      msg += "https://www.facebook.com/ETDPlugdj ";
-      msg += "https://www.facebook.com/groups/DTEplugdj/ ";
+      msg = "  Participe do grupo e curta nossa pagina e nos siga !";
+      msg += "https://www.facebook.com/ThiagoNathanX?hc_location=stream ";
+      msg += "https://www.facebook.com/groups/227421154091761/ ";
+      msg += "https://www.facebook.com/gabriel.gdsr";
       return API.sendChat(msg);
     };
 
