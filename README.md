@@ -892,10 +892,10 @@
     downloadCommand.prototype.functionality = function() {
       var msg;
       msg = "  Participe do grupo e curta nossa pagina e nos siga! ";
-      msg += "Poderoso Castiga ;x >> https://www.facebook.com/ThiagoNathanX?hc_location=stream ";
-      msg += "GRUPO DA SALA : https://www.facebook.com/groups/227421154091761/ ";
-      msg += "!JULIANA >> https://www.facebook.com/gabriel.gdsr
-      ";
+      msg += "Poderoso Castiga https://www.facebook.com/ThiagoNathanX?hc_location=stream ";
+      msg += "GRUPO DA SALA https://www.facebook.com/groups/227421154091761/ ";
+      msg += "!JULIANA https://www.facebook.com/gabriel.gdsr
+     ";
       return API.sendChat(msg);
     };
 
